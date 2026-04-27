@@ -39,3 +39,9 @@ The processed outputs are integrated into the MapBiomas Venezuela Collection 3 l
 - Public policy development and territorial planning.
 - Scientific research and biodiversity assessment.
 - Historical analysis from 1985 to 2024.
+
+If you are not familiar with MapBiomas workflows, check the [official methodology documentation](https://venezuela.mapbiomas.org/descripcion-general-de-la-metodologia/).
+
+For more information about MapBiomas Venezuela, visit [venezuela.mapbiomas.org](https://venezuela.mapbiomas.org).
+
+To explore the products from the available modules, visit [plataforma.venezuela.mapbiomas.org](https://plataforma.venezuela.mapbiomas.org).
