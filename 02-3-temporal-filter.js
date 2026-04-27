@@ -1,3 +1,31 @@
+/**
+ * @fileoverview Temporal filter for MapBiomas Venezuela Collection 3.
+ * Removes temporal noise (spikes) in classification by enforcing
+ * logical consistency across consecutive years.
+ * 
+ * @author MapBiomas Venezuela Team
+ * @version 1.0.0
+ * @see {@link https://venezuela.mapbiomas.org|MapBiomas Venezuela}
+ */
+
+/**
+ * Configuration parameters for temporal filtering.
+ * @typedef {Object} TemporalParamConfig
+ * @property {string} user - Google Earth Engine user name
+ * @property {number} regionId - Region identifier
+ * @property {string} country - Country name used for filtering mosaics
+ * @property {number[]} years - Full list of years to process
+ * @property {number[]} yearsPreview - Years used for visualization
+ * @property {Object} exclusion - Exclusion configuration
+ * @property {number[]} exclusion.years - Years to restore from original classification
+ * @property {number[]} exclusion.classes - Classes to preserve from original classification
+ * @property {string|number} inputVersion - Input classification version
+ * @property {string|number} outputVersion - Output classification version
+ * @property {boolean} overwrite - Whether to overwrite existing asset
+ * @property {number} mosaicVersion - Mosaic version
+ * @property {number[]} mosaicRegionIds - Mosaic region identifiers
+ * @property {Object[]} filterExecution - Ordered list of temporal filters to apply
+ */
 var param = {
     
     // Users
@@ -51,9 +79,6 @@ var param = {
 
 /**
  * TemporalFilter constructor - Applies temporal consistency rules to classification time series.
- * 
- * This filter removes temporal noise (spikes) in classification by enforcing
- * logical consistency across consecutive years.
  * 
  * @param {TemporalParamConfig} param - Configuration parameters
  * @constructor
