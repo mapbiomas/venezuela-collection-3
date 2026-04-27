@@ -1,5 +1,7 @@
 ![MapBiomas Venezuela](./mapbiomas-venezuela.png)
 
+[![Back to Venezuela All Initiatives](https://img.shields.io/badge/←%20Venezuela%20All%20Initiatives-gray?style=for-the-badge)](https://github.com/mapbiomas/venezuela-all-initiatives)
+
 # MapBiomas Venezuela – Land Cover Classification Scripts
 
 MapBiomas Venezuela monitors land use and land cover changes at a national scale through annual multitemporal mapping, enabling the analysis of ecosystem pressures and human expansion across all Venezuelan regions. To produce annual historical land use and land cover maps, the initiative uses Google Earth Engine and collaborates with a network of regional experts. By 2026, Venezuela developed Collection 3, covering the entire national territory across all administrative regions including Amazon, Andes, Central, Guayana Esequiba, Llanos (plains), Western and Eastern regions.
