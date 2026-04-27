@@ -1,5 +1,6 @@
 /**
- * @fileoverview Enforces temporal consistency by analyzing the frequency of each class
+ * @fileoverview Frequency filter for MapBiomas Venezuela Collection 3.
+ * Enforces temporal consistency by analyzing the frequency of each class
  * across the entire time series and reassigning pixels based on dominant behavior.
  * 
  * @author MapBiomas Venezuela Team
