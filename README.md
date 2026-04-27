@@ -25,7 +25,7 @@ MapBiomas Venezuela Collection 3 maps are generated using machine learning in Go
 | Script | Description |
 |--------|-------------|
 | `01-1-training-samples.js` | Generates and prepares training samples for the machine learning classifier |
-| `01-2-classifier.js` | Pixel-by-pixel classification using Random Forest in Google Earth Engine |
+| `01-2-classifier.js` | Supervised classification using Random Forest algorithm in Google Earth Engine |
 | `02-1-gapfill.js` | Fills temporal gaps in the historical image time series |
 | `02-2-spatial-filter.js` | Spatial connectivity filter to remove isolated pixels |
 | `02-3-temporal-filter.js` | Temporal consistency filter for annual transitions |
